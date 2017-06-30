@@ -1,0 +1,27 @@
+.pokemon{
+	width: 900px;
+	background-color: lightblue;
+	display: inline-block;
+}
+.pokedex{
+	width: 250px;
+	height: 450px;
+	border: 25px solid red;
+	background-color: /*lightgreen*/;
+	display: inline-block;
+	vertical-align: top;
+	position: fixed;
+	margin-left: 10px;
+}
+@font-face{
+	font-family: pokemon;
+	src: url('file:///Users/Michke/Desktop/Coding%20Files/Pokemon/Pokemon_solid.ttf');
+
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-family: pokemon;
+	font-weight: lighter;
+	font-size: 54px;
+}
